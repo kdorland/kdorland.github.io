@@ -1,47 +1,37 @@
 <!doctype html>
 <html>
 <head>
-    <!-- Basic Page Needs
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Docker and Wordpress - how I do it</title>
-    <meta name="description" content="">
-    <meta name="author" content="Kristian">
 
-    <!-- Mobile Specific Metas
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Kristian&#x27;s Homepage</title>
+<meta name="description" content="Projects and stuff">
+<meta name="author" content="Kristian Dorland">
 
-    <!-- FONT
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800" rel="stylesheet" type="text/css" />
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
 
-    <!-- CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/skeleton.css">
-    <link rel="stylesheet" href="/css/kristian.css">
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/kristian.css">
 
-    <!-- Favicon
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
 </head>
 <body>
-
 <div class="container">
-    <div class="row">
-    <div class="twelve columns">
-        <ul id="nav">
-            <li><a href="https://dk.linkedin.com/in/kristiandorland">LinkedIn</a></li>
-            <li><a href="https://plus.google.com/+KristianDorland">Google+</a>
-            <li><a href="https://github.com/kdorland">GitHub</a></li>
-        </ul>
-    </div>
-</div>
-    
-    <div class="row">
-        <div class="twelve columns">
-            <h1>Docker and Wordpress - how I do it</h1>
+<ul id="nav">
+    <li style="float:right"><a href="https://dk.linkedin.com/in/kristiandorland">LinkedIn</a></li>
+    <li style="float:right"><a href="https://plus.google.com/+KristianDorland">Google+</a>
+    <li style="float:right"><a href="https://github.com/kdorland">GitHub</a></li>
+</ul>
+
+<h1>Docker and Wordpress - how I do it</h1>
             <time style="display: block">2015-03-31</time>
             <h2 id="so-what-is-docker-">So what is Docker?</h2>
 <p>Everyone is using Docker these days for deployment it seems, and I&#39;ve hopped on the bandwagon because Docker is great. If you don&#39;t know what it is, basically it is a wrapper around small virtual linux containers (look up <a href="http://en.wikipedia.org/wiki/LXC">lxc</a> if you want to know more) for running software on your host machine without having to actually install said software. The software runs in it&#39;s own sandbox so it won&#39;t collide with a different version of the same software on the host. Everything is neatly packed into containers, and standard containers are readily available from the official Docker Hub. It&#39;s just like the packages you get from your linux distribution that you install with a simple &quot;apt-get install <em>package name</em>&quot; (or &quot;yum install&quot; or &quot;pacman -S&quot;). It&#39;s just &quot;docker start wordpress&quot; and it&#39;s up and running, and it will automatically download everything you need before it starts. To begin with, that&#39;s all you need to know about Docker.</p>
@@ -139,8 +129,6 @@ scp -i /root/.ssh/id_rsa -r /root/backup my_back_host.com:/root/
 <p>I&#39;m quite happy with this setup. If you read this far, I hope you got something out of it too. I encourage you two delve into the official documentation if you haven&#39;t already, since there is so much more you can do with Docker. Have fun!</p>
 <p>-Kristian</p>
 
-        </div>
-    </div>
 </div>
 
 <script>
