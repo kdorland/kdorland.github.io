@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="tilesheet" tilewidth="24" tileheight="24">
+  <image source="tilesheet.png" width="360" height="144"/>
+  <tile id="0">
+   <properties>
+    <property name="attribute" value="checkpoint"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="attribute" value="winning_area"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="attribute" value="player_start"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="subtype" value="mushroom"/>
+    <property name="type" value="environment"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="type" value="spikes"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="type" value="block_large"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="type" value="creature"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="subtype" value="skull"/>
+    <property name="type" value="creature"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="subtype" value="slug"/>
+    <property name="type" value="creature"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="subtype" value="ruby"/>
+    <property name="type" value="collectable"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="subtype" value="heart"/>
+    <property name="type" value="collectable"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="subtype" value="gold"/>
+    <property name="type" value="collectable"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="tile_index" value="0"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="tile_index" value="1"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="tile_index" value="2"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="tile_index" value="3"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="tile_index" value="4"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="tile_index" value="5"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="tile_index" value="6"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="subtype" value="statue"/>
+    <property name="type" value="environments"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="tile_index" value="7"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="tile_index" value="8"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="tile_index" value="9"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="tile_index" value="10"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="tile_index" value="11"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="tile_index" value="12"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="tile_index" value="13"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="tile_index" value="14"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="tile_index" value="15"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="tile_index" value="16"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="tile_index" value="17"/>
+    <property name="type" value="block"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Level" width="30" height="30">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAATQAAAE0AAABNAAAATQAAAE0AAABNAAAATQAAAE0AAABNAAAATQAAAE0AAABNAAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAABOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwAAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAATgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMAAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPQAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAABOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnAAAAJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAAE0AAAA+AAAAPgAAAD4AAAA9AAAAAAAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACcAAAAnAAAAJwAAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9AAAAAAAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJwAAACcAAAAnAAAAJwAAACcAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9AAAAAAAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJwAAACcAAAAnAAAAJwAAACcAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9AAAAAAAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJwAAACcAAAAnAAAAJwAAACcAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9AAAAAAAAAAAAAAAAAAAAAAAAAD4AAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAC8AAAAvAAAALwAAAC8AAAA9AAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPwAAAAwAAAAuAAAALwAAADAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAC4AAAAvAAAALwAAAC8AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAvAAAALwAAAC8AAAAvAAAALwAAAC8AAAAvAAAALwAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="30">
+  <object name="teleport1" type="trigger" x="635" y="346" width="105" height="129">
+   <properties>
+    <property name="destination" value="cave_level2"/>
+    <property name="spawnPointName" value="player_start"/>
+    <property name="subtype" value="teleport"/>
+   </properties>
+  </object>
+  <object name="playerEnd" type="trigger" x="467" y="352" width="74" height="139">
+   <properties>
+    <property name="subtype" value="checkpoint"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
