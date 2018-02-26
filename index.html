@@ -9,10 +9,6 @@
 <meta name="description" content="Projects and stuff">
 <meta name="author" content="Kristian Dorland">
 
-<!-- FONT
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
-
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="stylesheet" href="/css/normalize.css">
@@ -25,65 +21,44 @@
 </head>
 <body>
 
+<ul id="nav">
+    <li style="float:right"><a href="https://twitter.com/kdorland">Twitter</a>
+    <li style="float:right"><a href="https://dk.linkedin.com/in/kristiandorland">LinkedIn</a></li>
+    <li style="float:right"><a href="https://github.com/kdorland">GitHub</a></li>
+</ul>
+        
 <div class="container">
-    <ul id="nav">
-        <li style="float:right"><a href="https://dk.linkedin.com/in/kristiandorland">LinkedIn</a></li>
-        <li style="float:right"><a href="https://plus.google.com/+KristianDorland">Google+</a>
-        <li style="float:right"><a href="https://github.com/kdorland">GitHub</a></li>
+
+    <pre>
+-----------------------------------------
+--- Kristian's Homepage------------------
+-----------------------------------------
+-----------------------------------------
+----------------------- random stuff ----
+-----------------------------------------</pre>
+    <h2>Web experiments</h2>
+    <ul class="contentList">
+    <li><a href="https://rawgit.com/kdorland/group_generator/master/index.html">Group Generator</a>.
+    Generate random groups of stuff from a custom list.</li>
+    <li><a href="https://rawgit.com/kdorland/JavaSourcePrinter/master/index.html">Java Source Printer</a>.
+    My attempt at making a web based Java code formatter with syntax highlighting using "highlight.js". Needs a rewrite.</li>
+    <li><a href="/stuff/noise/">Value Noise Generator</a>. An old tool I made to generate cloud like patterns from value noise. The idea was to expand it to maps for games, but I never got that far.</li>
     </ul>
 
-
-    <h1>Kristian&#x27;s Homepage</h1>
-
-    <h2 id="welcome">Welcome</h2>
-    <p>Hello. My name is Kristian Dorland. This is my homepage.</p>
-    <p>Below you&#39;ll find various writings and small projects that I&#39;ve decided to share with the world. If you&#39;ll like to contact me, feel free to hit me up on social media or send me an <a href="mailto:kristian@dorland.dk">email</a> (kristian@dorland.dk). </p>
-    <p>Enjoy your stay.</p>
-    <p>-Kristian</p>
-
-    <h2>Writings and notes</h2>
-    <ul>
-    <li><a href="/writings/docker.html">Experimenting with self-hosting Wordpress using Docker on a Digital Ocean droplet</a><br/>
-    I have a Wordpress blog that I host for a family member, and I wanted a simple way to back it up automatically and move it between hosts when needed. Docker to the rescue!</li>
+    <h2>Games</h2>
+    <ul class="contentList"> 
+    <li><a href="/stuff/mini_circle_wars.html">Mini Circle Wars (2013)</a> My entry to the <a href ="http://ludumdare.com/compo/ludum-dare-26/">Ludum Dare 26</a>. It's a tower defense game made with LibGDX.</li>
+    <li><a href="/stuff/valhalla/">Valhalla (2013)</a>
+    A prototype game for a platforming engine I made a while back, also utilizing LibGDX. Abondoned.</li>
+    <li><a href="/stuff/atoms.zip">Atoms (2000)</a>
+    A board game made back in high school  inspired by an old public domain board game of the same name for the Atari ST. Programmed in C using <a href="https://www.libsdl.org/">libsdl</a> with graphics made in Paint Shop Pro 4. And it still runs flawlessly on Windows 10.</li>
     </ul>
 
-    <h2>Small web experiments</h2>
-    <ul>
-    <li><a href="https://rawgit.com/kdorland/group_generator/master/index.html">Group Generator</a>.<br/>
-    I needed a small group generator at one point at work. I don't use it anymore, but here it is.</li>
-    <li><a href="https://rawgit.com/kdorland/JavaSourcePrinter/master/index.html">Java Source Printer</a>.<br/>
-    My attempt at making a web based Java code formatter with syntax highlighting. I needed it to generate HTML ready for printing without to much syntax coloring, and it had to highlight any Java code comment with my initials in it (using bright red). It works, but the print button is buggy. Keep hitting it a few times until it opens a tab that isn't empty (I need a better mechanism for this feature).</li>
-    <li><a href="/stuff/noise/">Value Noise Generator</a><br/>
-    A fun little tool I made a while back to generate cloud like patterns from value noise. I had plans to make it a sort of land map generator, but I never took it further. <a href="/stuff/noise/?mainColor=CFFF30&seed=2tWQSh5apLCRm&persistence=41&cutoff1=c1&c1v=31&cutoffColor1=B0D5FF&cutoff2=c2&c2v=69&cutoffColor2=33871A&cutoff3=c3&c3v=100&cutoffColor3=0B330A">Here is an example</a> where it looks sorta like plains with lakes and forests, or maybe mountains?</li>
-    </ul>
-
-    <h2>Fun and games</h2>
-    <ul>
-    <li><a href="/stuff/mini_circle_wars.html">Mini Circle Wars</a> - (2013)<br/>
-    This was a <a href ="http://ludumdare.com/compo/ludum-dare-26/">Ludum Dare 26</a> entry. It's a tower defense game made in less than 48 hours using Java and libgdx.</li>
-    <li><a href="/stuff/valhalla/">Valhalla - Depths of Asgard</a> - (2013)<br/>
-    This is a silly little platforming game I made for the browser. I clearly have more talent when it comes to coding than doing graphics or designing levels. But I had a lot of fun creating the actual engine, though I never got to use it again after this game.</li>
-    <li><a href="/stuff/atoms.zip">Atoms</a> - (2000)<br/>
-    A board game I made back in high school that was inspired by an old public domain board game I used to play on the Atari ST. It was programmed in C using <a href="https://www.libsdl.org/">libsdl</a>, and I believe I made the graphics in Paint Shop Pro 4. What's amazing about this is that I made it for Windows 98, and it still works flawlessly on Windows 10.</li>
-    </ul>
-
-    <p id="copyright" property="dc:rights" style="font-size: 0.8em; text-align: center;">
-    &copy; Copyright
-    <span property="dc:dateCopyrighted">2016</span>
+    <p id="copyright" property="dc:rights">&copy; Copyright
+    <span property="dc:dateCopyrighted">2018</span>
     <span property="dc:publisher">Kristian Dorland</span>
-</p>
+    </p>
 </div>
-
-
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-61450987-1', 'auto');
-    ga('send', 'pageview');
-</script>
 
 </body>
 </html>

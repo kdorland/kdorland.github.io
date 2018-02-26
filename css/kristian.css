@@ -1,33 +1,34 @@
 
 body {
-    background-color: #F5F3F3;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    background-color: white;
+    font-family: monospace;
+    font-size: 1.4em;
 }
 
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
-    margin-bottom: 50px;    
-    max-width: 750px;
 }
 
+pre {
+    color: #c0392b;
+}
 
 h1 {
-    font-weight: 400;
+    font-weight: bold;
     line-height: 1.5em;
-    font-size: 2.5em;
+    font-size: 1em;
     margin: 0 0 23px 0;
-    color: #B56919;
+    color: #e67e22;
 }
 
 h2 {
-    font-weight: 800;
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 1em;
     line-height: 2em;
     margin: 0 0 0 0;
-    color: #753F32;
+    color: #c0392b;
 }
 
 p {
@@ -36,6 +37,7 @@ p {
 }
 
 a {
+    font-weight: bold;
     color: #753F32;
 }
 
@@ -54,6 +56,16 @@ code {
     color: #B97575;
     font-weight: bold;
     font-family: monospace;
+}
+
+.container ul {
+    list-style: none;   
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+.container ul li:before {
+    content: "\00BB \0020";
 }
 
 #nav {
@@ -77,4 +89,8 @@ code {
 
 #nav li a:hover {
     color: #B56919;
+}
+
+#copyright {
+    font-size: 1em; text-align: center;
 }
