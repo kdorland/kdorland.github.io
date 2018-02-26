@@ -8,7 +8,8 @@ body {
 .container {
     padding-left: 10px;
     padding-right: 10px;
-    margin: 0 auto;
+    margin-left: 20px;
+    max-width: 750px;
 }
 
 pre {
@@ -58,13 +59,13 @@ code {
     font-family: monospace;
 }
 
-.container ul {
+.contentList {
     list-style: none;   
     margin-left: 0;
     padding-left: 1em;
     text-indent: -1em;
 }
-.container ul li:before {
+.contentList li:before {
     content: "\00BB \0020";
 }
 
