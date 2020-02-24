@@ -1,97 +1,116 @@
-
 body {
-    background-color: white;
-    font-family: monospace;
-    font-size: 1.4em;
+    font-size: 1.0em;
+    font-family: 'Roboto Slab';
+    line-height: 1.2em;
+    background-color: #ffffff;
 }
 
-.container {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 20px;
-    max-width: 750px;
+.contents {
+    line-height: 1.6em;
 }
 
-pre {
-    color: #c0392b;
-}
-
-h1 {
-    font-weight: bold;
-    line-height: 1.5em;
-    font-size: 1em;
-    margin: 0 0 23px 0;
-    color: #e67e22;
-}
-
-h2 {
-    font-weight: bold;
-    font-size: 1em;
-    line-height: 2em;
-    margin: 0 0 0 0;
-    color: #c0392b;
-}
-
-p {
-    line-height: 1.5em;
-    margin: 0 0 23px 0;
+h1, h2, h3, h4 {
+    font-family: 'Oswald';
+    color: #B3AE72;
 }
 
 a {
     font-weight: bold;
-    color: #753F32;
+    color: #5A552C;
 }
 
-a:hover { 
-    color: #B56919;
+a:hover {
+    background-color: #ffffb1;
 }
 
-time {
-    display: block;
-    color: #A2A2A2;
-    font-size: 0.8em;
-    margin-bottom: 1em;
-}
-
-code {
-    color: #B97575;
-    font-weight: bold;
-    font-family: monospace;
-}
-
-.contentList {
-    list-style: none;   
+ul {
+    list-style: none;
     margin-left: 0;
     padding-left: 1em;
     text-indent: -1em;
 }
-.contentList li:before {
+
+ul li:before {
     content: "\00BB \0020";
 }
 
-#nav {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        max-width: 650px;
+        margin: 10px 20px 50px;
+    }
+
+    .contents {
+        max-width: 650px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
 }
 
-#nav li {
-    margin-top: 10px;
+@media only screen and (min-width: 600px) {
+    .sidebar {
+        position: fixed;
+        left: 15px;
+        top: 15px;
+        width: 80px;
+        font-size: 0.8em;
+    }
+
+    .contents {
+        max-width: 650px;
+        margin-left: 120px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
 }
 
-#nav li a {
-    padding-right: 10px;
-    padding-left: 10px;
-    text-decoration: none;
+.sidebar h1 {
+    font-size: 1.2em;
+}
+
+
+
+#logoBox {
+    font-family: 'Oswald';
     font-weight: bold;
-    border-right: 1px solid #ccc;
-    color: #753F32;
+    font-size: 20px;
+
+    margin: 0;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #202020;
+    padding: 20px 12px 2px 12px;
+    width: 50px;
+    height: 50px;
+
+    background: linear-gradient(-45deg, #F6F6F4, #F6F6F4, #e7a25d, #b4f665);
+    background-size: 800% 800%;
+    animation: gradient 8s ease infinite;
 }
 
-#nav li a:hover {
-    color: #B56919;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-#copyright {
-    font-size: 1em; text-align: center;
+.blink {
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }
