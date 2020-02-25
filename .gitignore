@@ -1,2 +1,4 @@
 # This is .gitignore
 .idea/
+_site
+node_modules
