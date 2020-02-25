@@ -43,7 +43,7 @@ ul li:before {
     content: "\00BB \0020";
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .sidebar {
         max-width: 650px;
         margin: 10px 20px 50px;
@@ -57,7 +57,7 @@ ul li:before {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     .sidebar {
         position: fixed;
         left: 15px;
