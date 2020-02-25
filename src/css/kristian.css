@@ -23,6 +23,15 @@ a:hover {
     background-color: #ffffb1;
 }
 
+.nostyle {
+    color: black;
+    text-decoration: none; /* no underline */
+}
+
+a.nostyle:hover {
+    background-color: transparent;
+}
+
 ul {
     list-style: none;
     margin-left: 0;
