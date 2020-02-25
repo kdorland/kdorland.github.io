@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
     eleventyConfig.setTemplateFormats([
-        "css", "zip", "png", "jar", "ejs", "html"
+        "css", "zip", "png", "jar", "ejs", "html", "json", "unityweb", "ico"
     ]);
 
     return {
