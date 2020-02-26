@@ -43,6 +43,16 @@ ul li:before {
     content: "\00BB \0020";
 }
 
+li time {
+    float: right;
+}
+
+.writings-list li {
+    border-bottom: 1px solid #eee;
+}
+
+img{  width: 100%; }
+
 @media (max-width: 600px) {
     .sidebar {
         max-width: 650px;
