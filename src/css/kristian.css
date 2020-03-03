@@ -1,5 +1,5 @@
 body {
-    font-size: 1.0em;
+    font-size: 1.25em;
     font-family: 'Noticia Text';
     line-height: 1.5em;
     background-color: #ffffff;
@@ -47,27 +47,36 @@ li time {
     float: right;
 }
 
-.writings-list li {
+.writings-table td {
     border-bottom: 1px solid #eee;
+    padding-right: 1em;
+}
+.writings-time {
+    white-space: nowrap;
 }
 
 img{  width: 100%; }
 
-@media (max-width: 600px) {
+@media (max-width: 800px)  {
     .sidebar {
         max-width: 650px;
         margin: 10px 20px 50px;
+        text-align: center;
     }
 
     .contents {
-        max-width: 650px;
+        max-width: 850px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 50px;
     }
+
+    #logoBox {
+        display: inline-block;
+    }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .sidebar {
         position: fixed;
         left: 15px;
@@ -77,7 +86,7 @@ img{  width: 100%; }
     }
 
     .contents {
-        max-width: 650px;
+        max-width: 850px;
         margin-left: 120px;
         margin-right: 20px;
         margin-bottom: 50px;
@@ -92,6 +101,7 @@ img{  width: 100%; }
     font-family: 'Acme';
     font-weight: bold;
     font-size: 18px;
+    line-height: 1.3em;
 
     margin: 0;
     text-align: center;
