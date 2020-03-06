@@ -1,6 +1,6 @@
 body {
     font-size: 1.25em;
-    font-family: 'Noticia Text';
+    font-family: 'Raleway', sans-serif;
     line-height: 1.5em;
     background-color: #ffffff;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Acme';
+    font-family: 'Bree Serif', serif;
     color: #B3AE72;
 }
 
@@ -98,7 +98,7 @@ img{  width: 100%; }
 }
 
 #logoBox {
-    font-family: 'Acme';
+    font-family: 'Bree Serif', serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 1.3em;
