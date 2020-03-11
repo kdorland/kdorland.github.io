@@ -1,9 +1,9 @@
 module.exports = function(eleventyConfig) {
     eleventyConfig.setTemplateFormats([
-        "css", "ejs", "html", "json"
+        "css", "11ty.js", "html", "json"
     ]);
 
-    eleventyConfig.addPassthroughCopy("src/**/*.js");
+    eleventyConfig.addPassthroughCopy("src/stuff/**/*.js");
     eleventyConfig.addPassthroughCopy("src/**/*.jpg");
     eleventyConfig.addPassthroughCopy("src/**/*.png");
     eleventyConfig.addPassthroughCopy("src/**/*.zip");
