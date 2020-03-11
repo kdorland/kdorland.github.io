@@ -15,7 +15,7 @@ ${require('../sidebar.11ty')}
     I already own several devices, including a desktop PC and an iPad. But I still wanted something portable that would 
     be easy to write on, and I was curious about the state of the cheap Chromebooks as replacements for more expensive 
     laptops. In this review, I'll try to see how much you can actually do with a Chromebook other than just surfing and
-    playing simple games. I'm especially interested in the Linus support and the overall performance and build quality.
+    playing simple games. I'm especially interested in the Linux support and the overall performance and build quality.
     </p>
 
     <h2>Hardware</h2>
