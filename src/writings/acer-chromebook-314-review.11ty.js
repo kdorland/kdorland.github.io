@@ -4,8 +4,6 @@ module.exports = `
 ${require('../header.11ty')('Acer Chromebook 314 Review')}
 <body>
 
-${require('../sidebar.11ty')}
-
 <section class="contents">
     <h1>Acer Chromebook 314 Review</h1>
 

@@ -4,9 +4,6 @@ module.exports = `
 ${require('../../header.11ty')('Unity VR Guide')}
 <body>
 
-${require('../../sidebar.11ty')}
-
-
 <section class="contents">
     <h1>Starting Guide for Unity 2019 Oculus VR development</h1>
 

@@ -1,4 +1,5 @@
-module.exports =(title) => `<head>
+module.exports = (title) => /*html*/ `
+<head>
     <meta charset="utf-8">
     <title>krdo.dev ${title}</title>
     <meta name="description" content="Projects and stuff">

@@ -1,13 +1,13 @@
-module.exports =`
+module.exports = /*html*/`
 <!doctype html>
 <html>
 ${require('./header.11ty')('Writings')}
 <body>
 
-${require('./sidebar.11ty')}
-
 <section class="contents">
-    <h1>Writings</h1>
+    <h1>Kristian's Writings</h1>
+
+    <p>Once in a while I feel like writing something about something that interests me personally. When I don't really have an audience, I just put the writing in the list below instead.</p>
 
     <table class="writings-table">
         <tr>

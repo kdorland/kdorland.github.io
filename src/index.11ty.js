@@ -1,26 +1,24 @@
-module.exports =`
+module.exports = /*html*/`
 <!doctype html>
 <html>
 ${require('./header.11ty')('')}
 <body>
 
-${require('./sidebar.11ty')}
-
 <section class="contents">
-    <h1>Experiments</h1>
+    <h1>Kristian's Homepage</h1>
+
+    <h2>Content</h2>
     <ul>
-        <li><a href="/stuff/noise/" target="_blank">Value Noise Generator (2013)</a>. A tool I made to generate cloud like patterns from
-            value noise. Can be used to create maps for games.
-        </li>
-        <li><a href="/stuff/noise_unity/" target="_blank">Unity Noise (2018)</a>. Similar to the above tool, but using Unity and the built
-            in noise function (<a href="https://en.wikipedia.org/wiki/Perlin_noise" target="_blank">perlin</a>).
-        </li>
-        <li><a href="https://rawgit.com/kdorland/group_generator/master/index.html" target="_blank">Group Generator (2015)</a>.
-            Generate random groups from a list of entries. Only used briefly.
-        </li>
-        <li><a href="https://rawgit.com/kdorland/JavaSourcePrinter/master/index.html" target="_blank">Java Source Printer (2015)</a>.
-            A web based Java code formatter with syntax highlighting using "highlight.js". I ended up never using it.
-        </li>
+        <li><a href="/writings">Writings</a>. Various stuff I felt like writing and publishing.</li>
+        <li><a href="/experiments">Web Experiments</a>. Personal catalog of technical web-based experiments. </li>
+        <li><a href="/games">Games</a>. A few picks from times when I felt like making small games.</li>
+    </ul>
+
+    <h2>Social Profiles</h2>
+    <ul>
+        <li><a href="https://dk.linkedin.com/in/kristiandorland" target="_blank">LinkedIn</a>. Yep. I'm on LinkedIn. Feel free to message me here.</li>
+        <li><a href="https://github.com/kdorland" target="_blank">GitHub</a>. I put up a lot of stuff on GitHub, including <a href="https://github.com/kdorland/kdorland.github.io">this website you are currently browsing!</a></li>
+        <li><a href="https://twitter.com/kdorland" target="_blank">Twitter</a>. I only occasionally use twitter and mostly to see what other people are tweeting.</li>
     </ul>
 </section>
 

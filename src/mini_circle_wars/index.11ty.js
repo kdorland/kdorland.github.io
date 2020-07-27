@@ -1,9 +1,8 @@
+module.exports = /*html*/`
 <!doctype html>
 <html>
-<%- include('../header.ejs'); %>
+${require('../header.11ty')('Mini Circle Wars')}
 <body>
-
-<%- include('../sidebar.ejs'); %>
 
 <section class="contents">
     <h1>Mini Circle Wars (2013)</h1>
@@ -23,3 +22,4 @@
 
 </body>
 </html>
+`;

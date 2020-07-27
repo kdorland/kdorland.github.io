@@ -1,13 +1,14 @@
-module.exports =`
+module.exports = /*html*/`
 <!doctype html>
 <html>
 ${require('./header.11ty')('Games')}
 <body>
 
-${require('./sidebar.11ty')}
-
 <section class="contents">
-    <h1>Games</h1>
+    <h1>Kristian's Games</h1>
+
+    <p>A handful of small games I made over the years. Most games a just prototypes and the picks below are in a much more finished state than anything else I have in my archive. Which is why I've decided to share them.</p>
+
     <ul>
         <li><a href="/stuff/dude/" target="_blank">Platformer (2018)</a>. Simple platformer prototype made in Unity.
             Graphics found <a href="https://opengameart.org/content/arcade-platformer-assets" target="_blank">here</a>.

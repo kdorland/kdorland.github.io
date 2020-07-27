@@ -10,9 +10,16 @@ body {
     line-height: 1.5em;
 }
 
-h1, h2, h3, h4 {
+h1 {
     font-family: 'Bree Serif', serif;
     color: #bf616a;
+    line-height: 1em;
+}
+
+
+h2, h3, h4 {
+    font-family: 'Bree Serif', serif;
+    color: #81363c;
     line-height: 1em;
 }
 
@@ -60,15 +67,9 @@ li time {
 img{  width: 100%; }
 
 @media (max-width: 800px)  {
-    .sidebar {
-        max-width: 650px;
-        margin: 10px 20px 50px;
-        text-align: center;
-    }
-
     .contents {
-        max-width: 850px;
-        margin-left: 20px;
+        max-width: 1600px;
+        margin-left: 15px;
         margin-right: 20px;
         margin-bottom: 50px;
     }
@@ -79,20 +80,9 @@ img{  width: 100%; }
 }
 
 @media (min-width: 800px) {
-    .sidebar {
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        width: 100px;
-        height: 100%;
-        font-size: 0.8em;
-        background-color: #e5e9f0;
-        padding: 10px 10px 0px 10px;
-    }
-
     .contents {
-        max-width: 850px;
-        margin-left: 140px;
+        max-width: 1600px;
+        margin-left: 15px;
         margin-right: 20px;
         margin-bottom: 50px;
     }
