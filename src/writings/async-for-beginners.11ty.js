@@ -26,7 +26,7 @@ const result = md.render(data);
 module.exports = `
 <!doctype html>
 <html>
-${require('../header.11ty')('Acer Chromebook 314 Review')}
+${require('../header.11ty')('Asynchronous JavaScript for beginners')}
 <body>
 
 <section class="contents">
