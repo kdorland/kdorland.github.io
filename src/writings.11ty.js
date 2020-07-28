@@ -7,12 +7,16 @@ ${require('./header.11ty')('Writings')}
 <section class="contents">
     <h1>Kristian's Writings</h1>
 
-    <p>Once in a while I feel like writing something about something that interests me personally. When I don't really have an audience, I just put the writing in the list below instead.</p>
+    <p>I occasional feel like writing, or publishing material I've made for the courses I'm teaching. You can find them below in chronological order..</p>
 
     <table class="writings-table">
         <tr>
+            <td><a href="/writings/async-for-beginners/">Asynchronous JavaScript for beginners</a></td>
+            <td><time datetime="2020-07-28">2020-07-28</time></td>
+        </tr>
+        <tr>
             <td><a href="/writings/acer-chromebook-314-review/">Acer Chromebook 314 Review</a></td>
-            <td><time datetime="2020-02-26">2020-03-11</time></td>
+            <td><time datetime="2020-02-11">2020-03-11</time></td>
         </tr>
         <tr>
             <td><a href="/writings/unity-2019-oculus-vr-quickstart/">Quick start Guide for Unity 2019 Oculus VR development</a></td>

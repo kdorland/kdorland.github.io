@@ -2,12 +2,36 @@ body {
     font-size: 1.25em;
     font-family: 'Raleway', sans-serif;
     line-height: 1.25em;
-    background-color: #f3f6fb;
+    background-color: #fafbfd;
     color: #2e3440;
 }
 
 .contents {
     line-height: 1.5em;
+}
+
+.header-anchor {
+    visibility: hidden;
+    margin-left: -17px;
+}
+
+h1:hover .header-anchor,
+h2:hover .header-anchor,
+h3:hover .header-anchor {
+    visibility: visible;
+}
+
+pre {
+    background-color: #f3f3f4;
+    display: block;
+    overflow-x: auto;
+    color: #000000;
+    padding: 0.5em;
+}
+
+code {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f3f3f4;
 }
 
 h1 {
@@ -69,7 +93,7 @@ img{  width: 100%; }
 @media (max-width: 800px)  {
     .contents {
         max-width: 1600px;
-        margin-left: 15px;
+        margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 50px;
     }
@@ -82,7 +106,7 @@ img{  width: 100%; }
 @media (min-width: 800px) {
     .contents {
         max-width: 1600px;
-        margin-left: 15px;
+        margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 50px;
     }

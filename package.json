@@ -19,5 +19,10 @@
   "homepage": "https://github.com/kdorland/kdorland.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0"
+  },
+  "dependencies": {
+    "highlight.js": "^10.1.2",
+    "markdown-it": "^11.0.0",
+    "markdown-it-github-headings": "^2.0.0"
   }
 }
