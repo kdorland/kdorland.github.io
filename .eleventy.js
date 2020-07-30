@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
     ]);
 
     eleventyConfig.addPassthroughCopy("src/stuff/**/*.js");
+    eleventyConfig.addPassthroughCopy("src/awp_fall_2020/**/*.*");
     eleventyConfig.addPassthroughCopy("src/**/*.jpg");
     eleventyConfig.addPassthroughCopy("src/**/*.png");
     eleventyConfig.addPassthroughCopy("src/**/*.zip");

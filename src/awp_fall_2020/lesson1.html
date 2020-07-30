@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AWP Fall 2020 - Lesson 1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/hljs.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&display=swap');
+     
+        @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic');
+
+        /* General styling */
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .remark-slide-content h1,
+        .remark-slide-content h2,
+        .remark-slide-content h3,
+        .remark-slide-content h4
+        {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: normal;
+            margin-bottom: 0.2em;
+        }
+
+        .remark-slide-content p {
+            margin-top: 0px;
+        }
+
+        .remark-code,
+        .remark-inline-code {
+            font-family: 'Ubuntu Mono';
+            font-weight: 800;
+            line-height: 1.2em;
+            font-size: 0.9em;
+        }
+        .remark-slide-content {
+            background-color: #fafbfd;
+            font-size: 1.5em;
+            line-height: 1.7em;
+        }
+
+        .remark-slide-content.title h1 {
+            font-size: 3em;
+        }
+
+        /* Other layout stuff*/
+        .remark-slide-content.footnote {
+            position: absolute;
+            bottom: 3em;
+        }
+       
+        .remark-slide-content.title {
+            background-color: #fffadd;
+            color: #272323;
+            line-height: 3em;
+        }
+
+        /* Colors */
+        .red { color: #fa0000; }
+
+        /* Two-column layout */
+        .left-column {
+            color: #777;
+            width: 20%;
+            height: 92%;
+            float: left;
+        }
+
+        .left-column h2 {
+            font-size: 1.5em;
+        }
+        .left-column h3 {
+            font-size: 1em;
+        }
+        .left-column h2:last-of-type,
+        .left-column h3:last-child {
+            color: #000;
+        }
+
+        .right-column {
+            width: 75%;
+            float: right;
+            padding-top: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea id="source">
+
+    </textarea>
+    <script src="./remark-latest.min.js"></script>
+    <script>
+        const slideshow = remark.create({
+            ratio: '16:9',
+            sourceUrl: "lesson1.md"
+        });
+    </script>
+</body>
+
+</html>
