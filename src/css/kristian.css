@@ -2,7 +2,7 @@ body {
     font-size: 1.25em;
     font-family: 'Raleway', sans-serif;
     line-height: 1.25em;
-    background-color: #fafbfd;
+    background-color: #fdfcfa;
     color: #2e3440;
 }
 
@@ -22,7 +22,7 @@ h3:hover .header-anchor {
 }
 
 pre {
-    background-color: #f3f3f4;
+    background-color: #f4f4f3;
     display: block;
     overflow-x: auto;
     color: #000000;
@@ -31,7 +31,7 @@ pre {
 
 code {
     font-family: 'Source Code Pro', monospace;
-    background-color: #f3f3f4;
+    background-color: #f4f4f3;
 }
 
 h1 {
