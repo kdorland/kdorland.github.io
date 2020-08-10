@@ -7,7 +7,7 @@ ${require('./header.11ty')('Writings')}
 <section class="contents">
     <h1>Kristian's Writings</h1>
 
-    <p>I occasional feel like writing, or publishing material I've made for the courses I'm teaching. You can find them below in chronological order..</p>
+    <p>I occasional feel like writing, or publishing material I've made for the courses I'm teaching.</p>
 
     <table class="writings-table">
         <tr>
