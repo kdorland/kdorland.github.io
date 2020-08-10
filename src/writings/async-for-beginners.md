@@ -26,7 +26,7 @@ http.createServer(function (req, res) {
   })
 });
 ```
-You can tell this is hell from the last four lines with all the `})`; Can you easily tell where each function starts and ends? Imagine if you had even more nested functions like this!
+The purpose of the code is to write out some HTML. It starts with the header, then adds some data, then adds some other data, then adds some more data. You can tell this is hell from the last four lines with all the `})`; Can you easily tell where each function starts and ends? Imagine if you had even more nested functions like this!
 
 To explain the example above a bit further, the reason you have functions inside other functions is because the inner functions are "callback functions". This is the essence of async JavaScript code: writing callback functions. Let me explain what a callback function is.
 
