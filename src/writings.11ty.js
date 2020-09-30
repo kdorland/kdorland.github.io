@@ -11,8 +11,12 @@ ${require('./header.11ty')('Writings')}
 
     <table class="writings-table">
         <tr>
+            <td><a href="/writings/echoes-entry-02/">Eve Echoes - Journal Entry #2</a></td>
+            <td><time datetime="2020-09-30">2020-09-30</time></td>
+        </tr>
+        <tr>
             <td><a href="/writings/echoes-entry-01/">Eve Echoes - Journal Entry #1</a></td>
-            <td><time datetime="2020-07-28">2020-09-23</time></td>
+            <td><time datetime="2020-09-23">2020-09-23</time></td>
         </tr>
         <tr>
             <td><a href="/writings/async-for-beginners/">Asynchronous JavaScript for beginners</a></td>
