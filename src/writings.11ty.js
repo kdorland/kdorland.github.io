@@ -5,11 +5,13 @@ ${require('./header.11ty')('Writings')}
 <body>
 
 <section class="contents">
-    <h1>Kristian's Writings</h1>
-
-    <p>I occasional feel like writing, or publishing material I've made for the courses I'm teaching.</p>
+    <h1>Kristian's Ramblings and Writings</h1>
 
     <table class="writings-table">
+        <tr>
+            <td><a href="/writings/echoes-entry-03">Eve Echoes - Journal Entry #3</a></td>
+            <td><time datetime="2020-10-18">2020-10-18</time></td>
+        </tr>
         <tr>
             <td><a href="/writings/echoes-entry-02/">Eve Echoes - Journal Entry #2</a></td>
             <td><time datetime="2020-09-30">2020-09-30</time></td>

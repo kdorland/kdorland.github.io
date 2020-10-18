@@ -20,13 +20,13 @@ const md = require('markdown-it')({
     className: "header-anchor"
 });
 
-const data = fs.readFileSync('./src/writings/echoes-entry-02.md', 'utf8');
+const data = fs.readFileSync('./src/writings/echoes-entry-03.md', 'utf8');
 const result = md.render(data);
 
 module.exports = `
 <!doctype html>
 <html>
-${require('../header.11ty')('Eve Echoes - Journal Entry #2')}
+${require('../header.11ty')('Eve Echoes - Journal Entry #3')}
 <body>
 
 <section class="contents">
