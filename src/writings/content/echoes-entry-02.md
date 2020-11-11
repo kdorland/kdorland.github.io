@@ -1,3 +1,8 @@
+---
+title: Eve Echoes - Journal Entry #2
+author: Kristian Dorland
+category: Writings
+---
 # Eve Echoes - Journal Entry 2
 I've now been playing for a month, and on a basic level I'm having quite a bit of fun with my new mobile game addiction. I like hunting for ore in my Venture 2 mining ship, trying to get the Dark Ochre before some Retriever comes by and vacuums it up in no time. I'm also toying around with industry making a very small profit on producing Ventures. Not something to get rich by, but I get some joy out of planning the production and writing small spreadsheets to figure out the profit I make. 
  

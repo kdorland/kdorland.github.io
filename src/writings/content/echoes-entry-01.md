@@ -1,3 +1,8 @@
+---
+title: Eve Echoes - Journal Entry #1
+author: Kristian Dorland
+category: Writings
+---
 # Eve Echoes - Journal Entry 1
 I got late into the game, or early actually, depending on how you look at things. You see, if this is the game to play for the next many year, being among the players starting in the first few weeks would make you one of the very first. But on the other hand, if the game dies after a few months, starting three weeks into the game would make you late. 
 

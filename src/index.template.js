@@ -1,17 +1,17 @@
 module.exports = /*html*/`
 <!doctype html>
 <html>
-${require('./header.11ty')('')}
 <body>
+${require("./header.js")("Kristian Dorland's Homepage")}
 
 <section class="contents">
     <h1>Kristian's Homepage</h1>
 
     <h2>Content</h2>
     <ul>
-        <li><a href="/writings">Ramblings and Writings</a>. I write stuff and post it here if I have nowhere else to post it.</li>
-        <li><a href="/experiments">Web Experiments</a>. Random tools and experiments I've made that you can access from your browser.</li>
-        <li><a href="/games">Games</a>. A few of the games I've made over the years. Most are meants as demonstrations and prototypes. I would love to eventually finish something in the multiplayer space-trading exploration genre. Some day. </li>
+        <li><a href="/writings.html">Ramblings and Writings</a>. I write stuff and post it here if I have nowhere else to post it.</li>
+        <li><a href="/experiments.html">Web Experiments</a>. Random tools and experiments I've made that you can access from your browser.</li>
+        <li><a href="/games.html">Games</a>. A few of the games I've made over the years. Most are meants as demonstrations and prototypes. I would love to eventually finish something in the multiplayer space-trading exploration genre. Some day. </li>
     </ul>
 
     <h2>Contact</h2>

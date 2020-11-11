@@ -1,4 +1,9 @@
-# Eve Echoes - journal entry #3
+---
+title: Eve Echoes - Journal Entry #3
+author: Kristian Dorland
+category: Writings
+---
+# Eve Echoes - Journal Entry #3
 This will be my last journal for now since I just decided to stop playing. It wasn't a bad game, and I'm impressed with what NetEase has archived, but it wasn't for me. Instead of a longwinded and probably boring analysis, I'm going to give this some closure by simply summerizing the main reasons I didn't enjoy the game after roughly 1.5 month of play.
 
 ## Reason 1: All the benefits of a PC game with all the downsides

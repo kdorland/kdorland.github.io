@@ -1,4 +1,3 @@
 # This is .gitignore
-.idea/
-_site
+_*
 node_modules

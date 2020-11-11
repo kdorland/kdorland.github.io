@@ -1,8 +1,8 @@
 module.exports = /*html*/`
 <!doctype html>
 <html>
-${require('./header.11ty')('')}
 <body>
+${require("./header.js")("Kristian Dorland's Homepage")}
 
 <section class="contents">
     <h1>Kristian's Web Experiments</h1>

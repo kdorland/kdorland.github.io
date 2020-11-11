@@ -1,8 +1,8 @@
 module.exports = /*html*/`
 <!doctype html>
 <html>
-${require('./header.11ty')('Games')}
 <body>
+${require("./header.js")("Kristian Dorland's Homepage")}
 
 <section class="contents">
     <h1>Kristian's Games</h1>
@@ -13,7 +13,7 @@ ${require('./header.11ty')('Games')}
         <li><a href="/stuff/dude/" target="_blank">Platformer (2018)</a>. Simple platformer prototype made in Unity.
             Graphics found <a href="https://opengameart.org/content/arcade-platformer-assets" target="_blank">here</a>. I actually developed this as a project template for a Unity Game Programming course I was teaching until 2019.
         </li>
-        <li><a href="/mini_circle_wars">Mini Circle Wars (2013)</a>
+        <li><a href="/writings/mini-circle-wars.html">Mini Circle Wars (2013)</a>
             My entry to the <a href="http://ludumdare.com/compo/ludum-dare-26/" target="_blank">Ludum Dare 26</a>.
             It's a tower defense game made with LibGDX with the twist that enemies come from all sides.
         </li>
@@ -24,7 +24,6 @@ ${require('./header.11ty')('Games')}
         </li>
     </ul>
 </section>
-
 </body>
 </html>
 `;

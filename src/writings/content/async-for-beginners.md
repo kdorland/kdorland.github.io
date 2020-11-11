@@ -1,3 +1,9 @@
+---
+title: Asynchronous JavaScript for beginners
+author: Kristian Dorland
+category: Writings
+---
+
 # Asynchronous JavaScript for beginners
 
 Anyone writing JavaScript needs to understand the asynchronous nature of the language to some extent. That something is asynchronous means that it doesn't happen right away. Essentially, with JavaScript, you often have to write code that is triggered later at some unspecified time. This complicates matters, since you don't know the order of which your code is run! Luckily, there are ways to write async code in a simple and easy to understand manner if you go about it in the right way. I will try to explain how to do that with this guide. 
