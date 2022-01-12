@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "highlight.js": "^10.1.2",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-github-headings": "^2.0.0"
   }
 }
